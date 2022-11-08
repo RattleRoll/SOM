@@ -1,0 +1,14 @@
+.wrapper{
+height: 200px;
+background-color: black;
+text-decoration: underline;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.loginer{
+    background-color: blue;
+    height: 700px;
+    text-align: center;
+    cursor: pointer;}
