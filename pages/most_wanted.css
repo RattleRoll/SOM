@@ -1,0 +1,41 @@
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+img{
+    width: 150x;
+    height: 150px;
+}
+.nav_links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.header_nav_link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+.actve_link {
+    color:blanchedalmond;
+    text-decoration: underline;
+    align-items: center;
+}
+.wrapper_logo{
+    width: 50px;
+    height: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.criminals_name{
+    background-color: blueviolet;
+    text-align: center;
+    width: 1350px; 
+    height: 40px;
+}
