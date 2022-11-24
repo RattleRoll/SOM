@@ -1,41 +1,70 @@
-
-header{
+header {
     background-color: black;
     display: flex;
     justify-content: space-between;
     height: 100px;
 }
-img{
+
+img {
     width: 150x;
     height: 150px;
 }
-.nav_links{
+
+.nav_links {
     display: flex;
     align-items: center;
     height: 100%;
 }
-.header_nav_link{
+
+.header_nav_link {
     text-decoration: none;
     color: white;
     margin-right: 20px;
-    
+
 }
+
 .actve_link {
-    color:blanchedalmond;
+    color: blanchedalmond;
     text-decoration: underline;
     align-items: center;
 }
-.wrapper_logo{
+
+.wrapper_logo {
     width: 50px;
     height: 50px;
 }
-img{
+
+img {
     width: 100px;
     height: 100px;
 }
-.criminals_name{
+
+.criminals_name {
     background-color: blueviolet;
     text-align: center;
-    width: 1350px; 
+    width: 1333px;
     height: 40px;
+}
+
+.prisoners {
+    background-color: #cacaf8;
+    border: solid;
+    border-radius: 1px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.img_one {
+    width: 300px;
+    height: 200px;
+}
+
+.prisoners:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color: blueviolet;
 }
