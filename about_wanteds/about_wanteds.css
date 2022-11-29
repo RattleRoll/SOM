@@ -1,0 +1,65 @@
+.wrapper_logo{
+    width: 50px;
+    height: 100px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.nov_links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.main_logo_img{
+    width: 100px;
+    height: 100px;
+
+}
+h1{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+h3{
+    width: 1000px;
+    height: 1px;
+    margin: auto;
+}
+.about_us{
+    height: 100px;
+}
+.img_classes{
+width: 250px;
+height: 200px;
+justify-content: center;
+}
+.header_nav_link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.header_nav_link_actve_link{
+    background-color: blanchedalmond;
+}
+.about_all{
+    height: 800px;
+}
+.img_classes{
+    margin-top: 20px;
+    width: 250px;
+    height: 260px;
+    justify-content: center;
+    display: flex;
+    display: inline-block;
+}
+.img_one{
+    display: inline-block;
+    justify-content: center;
+    width: 250px;
+    height: 260px;
+
+}
+
