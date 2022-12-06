@@ -1,0 +1,48 @@
+.wrapper_logo{
+    width: 50px;
+    height: 100px;
+}
+header{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+}
+.nov_links{
+    align-items: center;
+    height: 100%;
+    text-underline-position: auto;
+    display: flex;
+}
+.main_logo_img{
+    width: 100px;
+    height: 100px;
+}
+.header_nav_link_active_link{
+    color: blanchedalmond;
+    margin-left: 10px;
+}
+.header_nav_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.main_text{
+    margin-left: 530px;
+    text-align: center;
+    width: 250px;
+}
+.main_login{
+    margin-bottom: 15px;
+}
+.form_main_input{
+    height: 120px;
+}
+.btn_Submit_Page{
+    cursor: pointer;
+    background-color: rgb(220, 126, 11);
+    border-radius: 100px;
+    height: 40px;
+    width: 100px;
+}
+
+
