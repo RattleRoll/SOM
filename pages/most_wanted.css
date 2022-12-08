@@ -4,12 +4,6 @@ header {
     justify-content: space-between;
     height: 100px;
 }
-
-img {
-    width: 150x;
-    height: 150px;
-}
-
 .nav_links {
     display: flex;
     align-items: center;
@@ -30,8 +24,8 @@ img {
 }
 
 .wrapper_logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 img {
@@ -42,8 +36,9 @@ img {
 .criminals_name {
     background-color: blueviolet;
     text-align: center;
-    width: 1333px;
     height: 40px;
+    color: antiquewhite;
+    margin: 0;
 }
 
 .prisoners {
@@ -52,10 +47,8 @@ img {
     border-radius: 1px;
     width: 300px;
     height: auto;
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 10px;
     cursor: pointer;
+    margin: 10px;
 }
 
 .img_one {
@@ -67,4 +60,10 @@ img {
     cursor: pointer;
     transform: scale(1.5);
     background-color: blueviolet;
+}
+.wrapper_content{
+    background-color: #cacaf8;
+    display: flex;
+    flex-wrap: wrap;
+    
 }

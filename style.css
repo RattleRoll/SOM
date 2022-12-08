@@ -16,15 +16,14 @@ header{
     
 }
 .wrapper_logo{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 .actve_link {
     color:blanchedalmond;
     text-decoration: underline;
 }
 .classer{
-    width: 1350px;
     height: 800px;
     background: url("img/main_img.jpg") no-repeat center;
     color:bisque;
@@ -60,6 +59,9 @@ background-color: bisque;
 .btn_main_page:hover {
     cursor: pointer;
     background-color: rgb(237, 202, 159);
+}
+.main_logo_img{
+    width: 100%;
 }
 
 

@@ -29,7 +29,7 @@ h3{
     margin: auto;
 }
 .about_us{
-    height: 100px;
+    height: 150px;
 }
 .img_classes{
 width: 250px;
@@ -46,16 +46,16 @@ justify-content: center;
     background-color: blanchedalmond;
 }
 .about_all{
-    height: 800px;
+    /* height: 800px; */
 }
 .img_classes{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 270px;
     height: 270px;
-    justify-content: center;
-    display: flex;
-    display: inline-block;
-    margin-left: 110px;
+    /* justify-content: center;
+    display: flex; */
+    /* display: inline-block;
+    margin-left: 110px; */
 }
 .img_one{
     justify-content: center;
@@ -64,7 +64,7 @@ justify-content: center;
 }
 h4{
     width: 300px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 h2{
     color: blue;}
@@ -93,3 +93,6 @@ li {
     margin-left: 20px;
 }
 
+.wrapper_img_classes {
+display: flex;
+}
