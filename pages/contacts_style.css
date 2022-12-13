@@ -27,9 +27,8 @@ header{
     margin-left: 20px;
 }
 .main_text{
-    margin-left: 530px;
+
     text-align: center;
-    width: 250px;
 }
 .main_login{
     margin-bottom: 15px;
@@ -46,17 +45,37 @@ header{
 }
 .wrapper_media_list{
     display: flex;
+    justify-content: space-around;
+    width: 900px;
+  
 }
 .wrapper_class{
     width: 70px;
     height: 70px;
-    margin-left: 10px;
-    margin-right:;
-    
 }
 li {
     list-style: none;
  }
+ .wrapper_class{
+    width: 10px;
+    height: 0px;
+ }
+ .facebook_img{
+    width: 150px;
+    height: 150px;
+    background-color: #f2a74f;
+    
+    border-radius: 1000px;
+ }
+ .facebook_img:hover{
+    background-color:rgb(220, 126, 11);
+ }
+ fieldset{
+    width: 230px;
+    margin: auto;
+    margin-top: 10px;
+ }
+
 
 
 

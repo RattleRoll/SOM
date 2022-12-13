@@ -6,6 +6,7 @@ header{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 .nov_links{
     display: flex;
@@ -18,18 +19,15 @@ header{
     height: 100px;
 }
 h1{
-    height: 10px;
     display: flex;
     justify-content: center;
 
 }
 h3{
-    width: 1000px;
-    height: 1px;
-    margin: auto;
+
 }
 .about_us{
-    height: 150px;
+    margin-bottom: 159px;
 }
 .img_classes{
 width: 250px;
@@ -39,28 +37,31 @@ justify-content: center;
 .header_nav_link{
     text-decoration: none;
     color: white;
-    margin-left: 40px;
+    margin-left: 20px;
 
 }
 .header_nav_link_actve_link{
-    background-color: blanchedalmond;
+color: blanchedalmond;
+margin-left: 20px;
 }
 .about_all{
-    /* height: 800px; */
+    height: 100vh;
+    width: 100vw;
 }
 .img_classes{
     /* margin-top: 20px; */
     width: 270px;
     height: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     /* justify-content: center;
     display: flex; */
     /* display: inline-block;
     margin-left: 110px; */
 }
-.img_one{
-    justify-content: center;
+.img_one{  
     width: 300px;
-    height: 350px;
 }
 h4{
     width: 300px;
@@ -95,4 +96,13 @@ li {
 
 .wrapper_img_classes {
 display: flex;
+justify-content: space-around;
+height: 400px;
+}
+.txt_about{
+    width: 1000px;
+    margin: auto;
+}
+.facebook_img:hover{
+    transform: scale(1.5);
 }
