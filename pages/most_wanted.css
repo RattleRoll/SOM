@@ -4,23 +4,19 @@ header {
     justify-content: space-between;
     height: 100px;
 }
-.nav_links {
+.header_nav_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.nov_links {
     display: flex;
     align-items: center;
     height: 100%;
 }
-
-.header_nav_link {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-
-}
-
-.actve_link {
+.header_nav_link_active_link{
     color: blanchedalmond;
-    text-decoration: underline;
-    align-items: center;
+    margin-left: 10px;
 }
 
 .wrapper_logo {
